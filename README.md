@@ -1,3 +1,9 @@
+(MW: changes to move pod location back from CDN to Github, as other plugins do it the other way and this conflicts, generating these kinds of errors:
+
+[!] Found multiple specifications for `Firebase (6.19.0)`:
+- /Users/markwatkins/.cocoapods/repos/master/Specs/0/3/5/Firebase/6.19.0/Firebase.podspec.json
+- /Users/markwatkins/.cocoapods/repos/trunk/Specs/0/3/5/Firebase/6.19.0/Firebase.podspec.json
+
 # Cordova plugin for [Firebase Analytics](https://firebase.google.com/docs/analytics/)
 
 [![NPM version][npm-version]][npm-url] [![NPM downloads][npm-downloads]][npm-url] [![Twitter][twitter-follow]][twitter-url]
